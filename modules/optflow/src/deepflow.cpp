@@ -77,6 +77,19 @@ private:
 OpticalFlowDeepFlow::OpticalFlowDeepFlow()
 {
     // parameters
+    //default
+   /* 
+    sigma = 0.6f;
+    minSize = 25;
+    downscaleFactor = 0.95f;
+    fixedPointIterations = 5;
+    sorIterations = 25;
+    alpha = 1.0f;
+    delta = 0.5f;
+    gamma = 5.0f;
+    omega = 1.6f;
+  */  
+    // parameters
     sigma = 10.0f;
     minSize = 25;
     downscaleFactor = 0.95f;
